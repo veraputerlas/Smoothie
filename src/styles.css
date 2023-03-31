@@ -1,0 +1,440 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu_left {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+
+    }
+   .header_menu_left :hover {
+    color:#FEA3AC
+   }
+    .header_menu_right {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    }
+    .header_menu_right :hover {
+        color:#FEA3AC
+       }
+.header_head {
+    margin-top: 20px;
+    margin-left: 113px;
+    margin-right: 113px;
+    text-align: center;
+}
+.header_head_fresh {
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0;
+}
+.header_head_smooth {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: white;
+    text-shadow: 1px 0 1px #FEA3AC, 
+                0 2px 2px #FEA3AC, 
+                -2px 0 2px #FEA3AC, 
+                0 -2px 2px #FEA3AC;
+    margin-top: 5px;
+}
+.picture {
+    text-align: center;
+    color: white;
+}
+.picture_picture {
+    max-width: 100%;
+}
+.picture_text {
+    margin-top: -250px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+}
+.picture_text_small {
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 35px;    
+}
+/* List */
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+    gap: 47px;
+}
+.list_left {
+    width: 320px;
+}
+.list_item {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+.list_deckr {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+.list_right {
+    width: 320px;
+}
+.list_img {
+    width: 380px;
+    height: auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pink{
+    position: relative;
+    max-width: 90%;
+}
+.image-fruit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+}
+.dream {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+.dream_text {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+
+}
+.dream_pink {
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #FEA3AC;
+    margin-top: 5px;
+    text-align: center;
+}
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+    height: auto;
+    gap: 25px;
+
+}
+.team_ava{
+    display: inline-flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 590px;
+    margin-left: 20px;
+}
+
+.team_item_ava {
+    width: 390px;
+    height: 350px;
+    background: #C9E3F4;
+    padding-left: 27px;
+    
+}
+.team_item_ava_size{
+    width: 223px;
+    margin-top: 45px;
+    margin-left: 40%;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.team_name_ava {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.team_job_ava {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.team_descr_ava {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.team_ava_img {
+    width: 330px;
+    height: 330px;
+    margin-right: -155px;
+    z-index: 1;
+}
+.team_social_ava{
+    margin-top: 15px;
+}
+.team_rebecca{
+    display: inline-flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 590px;
+    margin-left: 60px;
+}
+.team_rebecca_img{
+    width: 330px;
+    height: 330px;
+    margin-right: -580px;
+    z-index: 1;
+}
+.team_item_rebecca{
+    width: 390px;
+    height: 350px;
+    background: #DFEEB6;
+    padding-left: 21px;
+}
+.team_item_rebecca_size{
+    width: 223px;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.team_name_rebecca {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.team_job_rebecca {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.team_descr_rebecca {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.team_social_rebecca {
+    margin-top: 15px;
+}
+.team_ellen {
+    display: inline-flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 590px;
+    margin-left: 20px;
+}
+.team_item_ellen {
+    width: 390px;
+    height: 350px;
+    background: #DFEEB6;
+    padding-left: 27px;
+}
+.team_ellen_img {
+    width: 330px;
+    height: 330px;
+    margin-right: -155px;
+    z-index: 1;
+}
+.team_item_ellen_size {
+    width: 223px;
+    margin-top: 45px;
+    margin-left: 40%;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.team_name_ellen {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.team_job_ellen {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.team_descr_ellen {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.team_social_ellen {
+    margin-top: 15px;
+}.team_andy {
+    display: inline-flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    width: 590px;
+    margin-left: 27px;
+}
+.team_andy_img {
+    width: 330px;
+    height: 330px;
+    margin-right: -580px;
+    z-index: 1;
+}
+.team_item_andy {
+    width: 390px;
+    height: 350px;
+    background: #C9E3F4;
+    padding-left: 21px;
+}
+.team_item_andy_size {
+    width: 223px;
+    margin-top: 45px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.team_name_andy {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+.team_job_andy {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+.team_descr_andy {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+}
+.team_social_andy {
+    margin-top: 15px;
+}
+/* footer */
+footer {
+    background-image: url("../images/footer.png");
+    background-color: #433840;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 1820px;
+    height: 400px;
+    color: white;
+    gap: 100px;
+}
+.footer_title{
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.footer_list {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+}
+li {
+    margin-bottom: 10px;
+}
+span {
+    color: #DFEEB6;
+}
+.footer_title_info {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.footer_inst {
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    gap: 26px;
+}
+.footer_footer {
+    background-color: #433840;
+    height: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
+.footer_copy {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
