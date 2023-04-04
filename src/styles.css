@@ -29,7 +29,7 @@ body {
 
     }
    .header_menu_left :hover {
-    color:#FEA3AC
+    color:#FEA3AC;
    }
     .header_menu_right {
     display: flex;
@@ -131,10 +131,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.pink{
-    position: relative;
-    max-width: 90%;
 }
 .image-fruit {
     display: flex;
@@ -418,6 +414,28 @@ span {
     font-size: 20px;
     margin: 0;
     margin-bottom: 10px;
+
+}
+.footer_title_info_tel::before{
+    content: url(../images/phone-call.png);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+}
+.footer_title_info_site::before {
+    content:'';
+    background-image: url(../images/right-arrow-symbol.png);
+    width: 15px;
+    height: 15px;
+    /* margin-right: 10px; */
+    background-size: cover;
+    position: absolute;
+}
+.footer_title_info_addres::before {
+    content: url(../images/location.png);
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
 }
 .footer_inst {
     display: flex;
