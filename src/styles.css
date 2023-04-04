@@ -417,25 +417,34 @@ span {
 
 }
 .footer_title_info_tel::before{
-    content: url(../images/phone-call.png);
-    width: 5px;
-    height: 5px;
+    content:'';
+    background-image: url(../images/phone-call.png);
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
 }
 .footer_title_info_site::before {
     content:'';
     background-image: url(../images/right-arrow-symbol.png);
     width: 15px;
     height: 15px;
-    /* margin-right: 10px; */
+    margin-right: 10px;
     background-size: cover;
-    position: absolute;
+    position: relative;
+    display: inline-block;
 }
 .footer_title_info_addres::before {
-    content: url(../images/location.png);
-    width: 5px;
-    height: 5px;
+    content:'';
+    background-image: url(../images/location.png);
+    width: 15px;
+    height: 15px;
     margin-right: 10px;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
 }
 .footer_inst {
     display: flex;
